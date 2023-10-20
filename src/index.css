@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  .inter{
+    font-family: 'Inter', sans-serif;
+  }
+  .noto{
+    font-family: 'Noto Sans', sans-serif;
+  }
+  .roboto{
+    font-family: 'Roboto', sans-serif;
+  }
+  .sura{
+    font-family: 'Sura', serif;
+  }
+}
+
+@layer components {
+   .main_container {
+      max-width: 1200px;
+      margin: 0 auto; 
+   }
+   .flex_container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+   .text_gradient{
+    background: conic-gradient(from -47deg at 70.61% 68.88%, rgba(76, 87, 107, 0.05) 0deg, rgba(0, 0, 0, 0.07) 360deg), radial-gradient(50.59% 50.59% at 30.4% 40.06%, rgba(24, 47, 89, 0.20) 0%, rgba(92, 126, 188, 0.20) 100%), linear-gradient(143deg, #182F59 25.94%, #020F26 85.35%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .div_shape_line_right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #EAEAEA;
+    border-bottom-left-radius: 60%;
+  }
+  .div_shape_line_left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #EAEAEA;
+    border-top-right-radius: 60%;
+  }
+  .transition_all{
+     transition: all 0.3s ease-in-out;
+  }
+
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}

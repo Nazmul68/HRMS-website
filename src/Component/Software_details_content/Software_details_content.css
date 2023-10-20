@@ -1,0 +1,25 @@
+.content_div{
+    position: relative;
+    z-index: 1;
+    margin-left: 35px;
+}
+.para_div{
+   display: flex;
+   align-items: center;
+   padding: 20px 40px;
+   border-radius: 8px;
+   background-color: #FAFAFA;
+   box-shadow: -4px 4px 8px rgba(0,0,0,0.11);
+
+}
+.content_div .content_div_sub{
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid #182F59;
+    z-index: -1;
+}
